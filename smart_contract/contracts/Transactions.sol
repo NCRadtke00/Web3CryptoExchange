@@ -58,6 +58,6 @@ contract Transactions {
     }
 
     function getTransactionsCount() public view returns (uint256) {
-        return transactionsCount;
+        return transactionCount;
     }
 }
