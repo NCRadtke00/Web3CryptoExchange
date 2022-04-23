@@ -50,7 +50,7 @@ export const TransactionProvider = ({ children }) => {
             console.log(error);
         }
     }
-    const checkIfWalletIsConnected = async () => {
+    const checkIfWalletIsConnect = async () => {
         try {
             if (!ethereum) return alert("Please install metamask.")
             const accounts = await ethereum.request({ method: 'eth_accounts' });
@@ -64,7 +64,7 @@ export const TransactionProvider = ({ children }) => {
             console.log(error);
         }
     };
-    const checkIfTransactionsExist = async () => {
+    const checkIfTransactionsExists = async () => {
         try {
             if (ethereum) {
                 const transactionContract = createEthereumContract();
@@ -140,5 +140,5 @@ export const TransactionProvider = ({ children }) => {
         >
             {children}
         </TransactionContext.Provider>
-    )
-}
+    );
+};
