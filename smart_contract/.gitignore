@@ -7,3 +7,6 @@ hardhat.config.js
 #Hardhat files
 cache
 artifacts
+
+#ignore hardhat 
+hardhat.config.js
