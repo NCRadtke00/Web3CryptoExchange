@@ -1,2 +1,4 @@
 
 smart_contract/hardhat.config.js
+
+client/.env
