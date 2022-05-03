@@ -46,7 +46,7 @@ export default [
     },
     {
         id: 6,
-        url: "https://giphy.com/clips/Lydia-Getachew-cardi-b-cardib-thats-suspicious-5oYJvtkl5R13IikfvT",
+        url: "https://media.giphy.com/media/mKklyHxxGDDa37zOuA/giphy.gif",
         message: "",
         timestamp: "4/20/2022, 4:04:00 PM",
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
